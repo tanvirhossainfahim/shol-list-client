@@ -1,0 +1,65 @@
+.shop_image_container{
+    
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop_detail .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop_detail .title span{
+    opacity:0;
+    transition: 0.2s;
+}  
+
+.btn_trash, .btn_edit{
+    margin-right: 4px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(221, 221, 221, 0);
+    background: rgba(238, 238, 238, 0);
+    font-size: 12px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.btn_trash svg, .btn_edit svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.btn_trash:hover{
+    background: rgb(255, 192, 192);
+    border: rgb(255, 134, 134);
+    color: red;
+}
+
+.btn_edit:hover{
+    background: rgb(192, 255, 213);
+    border: rgb(61, 208, 90);
+    color: rgb(0, 225, 75);
+}
+
+.shop_card{
+    margin-bottom: 15px;
+    background:#fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.shop_card:hover{
+    box-shadow: 0 0 2px 0px rgb(0 0 0 / 50%), 0 2px 5px 2px rgb(0 0 0 / 20%);
+}
+
+.shop_card:hover .shop_detail .title span{
+    opacity:1;
+}

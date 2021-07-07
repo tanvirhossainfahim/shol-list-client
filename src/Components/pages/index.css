@@ -1,0 +1,35 @@
+.srt_by{
+    border: 0px solid black;
+    font-weight: bold;
+}
+
+.srt_by:focus{
+    outline: 0;
+}
+
+.brdr{
+    border: 1px solid black;
+}
+
+.filter_container{
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+.filter_container .search_by{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 10px;
+}
+
+.filter_container .search_by:last-child{
+    border-bottom: 0px solid #000;
+}
+
+.filter_container .search_by p{
+    margin-bottom: 4px;
+}
+
+.heading{
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
